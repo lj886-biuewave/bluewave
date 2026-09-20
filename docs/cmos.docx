@@ -1,0 +1,32 @@
+    At the very beginning,what's the MOS？
+    For those who commenced the study of analog electronics
+,it actually evolves from a simple circuit configuration that
+ calls voltage-dependent current source,which is also the basi
+s of amplifier.
+    At first,we need a capacitor consisting of two conductive
+ plates,an insulator in the middle(dielectric)
+    And we put a voltage on it called V1,as we all know, the 
+final outcame is the plenty of postive charge will be attracted
+to the plate connected to the postive pole.
+    Negative charge,conversely,attracted and gathered together
+at the bottom plate(in efffect,usually the p-type substracte
+consisting of semiconductor),forming a high-density electronic
+path which is called "channel"(the channel of device).
+    So what will happen if we put anohter voltage V2 between 
+this channel?There are a number of negative charge between the
+channel,we put a voltage on it(right postive electrode,left 
+negative electrode).Aha,there is a current!
+    Of course ,this circuit will have the following rules:
+    (a)Q increases =C * U1 increases
+    If V1 increases ,Q increases,the electronic density increa
+ses.(the resistence between the source and drain decreases)
+    (b)If t decreases=>C increases=>Q increases
+    the electronic density in the channel also increases.
+
+The above is the1 initial structure that we learned.
+    But we can imagine that the realistic structure is not lik
+e that,it is actually a three dimensional structure.Next,we wi
+ll use a diagram to illustrate it.
+
+
+
