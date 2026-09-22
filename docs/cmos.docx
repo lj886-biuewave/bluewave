@@ -53,7 +53,36 @@ el,we need to start from the specific MOS structure of the g
 ate.If we assume that the cross-sectional length of the gate
 correspond to L,and the width of side is W.According to the p
 rinciple of the capacitors,the number of the charge in the ch
-annel conforms to the equation Q=C*U=W*L*COX(the capciture of 
-the structure per unit area,per meter squarl)
+annel conforms to the equation Q(Coulomb)=C*U=W*L*COX(the ca
+pciture of the structure per unit area,per meter squarl)*VG
+.But if take the threshold voltage into account,we can obtain
+a equation like this Qch=W*L*COX*(VG-VTH)(overdrive voltage).
+The basic equation has been established,we can then proceed to 
+make deductions.
+    Because the length and the width of the gate have been ass
+umed,the density of charge =W*COX*(VG-VTH).Next,it is the time
+to calculate the current.We need introduce a concept,namely"mo
+bility" ,v=μ*E,E=-dV/dX,v:carrier drift velocity,μ:mobility,E:
+electric field.In this way,we can obtain the equation for the
+current in the channel(ID):ID=the density of charge *COX*v.At 
+this point,we once again introduce the pressure division formula
+The applied voltage has changed to VG-VTH-V(x).After moving dx
+to the left side of the equation,integrate both sides separate
+ly.The final formula is ID=μ*W/L*COX*((VGS-VTH)*VDS-1/2VDS(2)).
+    What we need to know is that in the industrial manufactur
+ing process,VGS,and VTH are generally fixed values.So,the only
+parameter that can be changed in the formula is VDS.The follow
+ing text is a classfication discussion based on the values of 
+VDS.
+    If we consider VGS as a variable,change its value,you can
+observe how the overall values of the function change."lower-
+lower,higher-higher",that's why we always choose a comfortab
+le VGS's value.
+    If we consider VDS as a variable,then the function of ID is
+acutually a parabola,and from the perspective of the present time
+once VGS>VTH,no matter if the ID=0,or not,the device is on.From 
+this formula of parabola,we can easily noticed that when VDS=VGS
+-VTH,the ID current reaches it maximum value.
+    
 
 
