@@ -23,10 +23,37 @@ ses.(the resistence between the source and drain decreases)
     (b)If t decreases=>C increases=>Q increases
     the electronic density in the channel also increases.
 
-The above is the1 initial structure that we learned.
+The above is the initial structure that we learned.
     But we can imagine that the realistic structure is not lik
 e that,it is actually a three dimensional structure.Next,we wi
 ll use a diagram to illustrate it.
 
+The imagine is produced by AI agent"chatgpt"(By the way,i don
+'t oppose to use agent to make explanation more concise and cl
+ear).
+    What's the difference between the orignal circuit and 
+the realstic three dimensional model?
+    The most serious problem is circuit model can't reflect th
+e real physical laws of the real world.When we put an voltage
+on a capacitor ,we must guarantee the V1(From now on ,they wi
+ll all be referred to as VDS)over a special voltage value cal
+led threshold voltage to open up the channel.
+    If VDS is below this threshold voltage,we will find that 
+the channel no longer exists.On the function garph of VDS-ID,
+this is reflected as follows:when VDS is above the threshold,
+the function rises linearly(VDS in proportion of ID);while 
+when it is below this threshold,the ID remains always zero.
+As long as VDS is greater than VTH(this will be abbreviation
+used hereafter),the device is turned on,but the current can 
+only be generated when VD(drain voltage)is greater than VS(
+source voltage)(The threshold voltage is usually about 0.3 
+to 0.4,in case of out regular P-type substrate).
+    Well,what is the exact number of the charge in the chann
+el,we need to start from the specific MOS structure of the g
+ate.If we assume that the cross-sectional length of the gate
+correspond to L,and the width of side is W.According to the p
+rinciple of the capacitors,the number of the charge in the ch
+annel conforms to the equation Q=C*U=W*L*COX(the capciture of 
+the structure per unit area,per meter squarl)
 
 
